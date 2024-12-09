@@ -15,6 +15,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Core theme CSS -->
     <link rel="stylesheet" href="style.css">
+    <style>
+      /* Styling untuk pilihan dropdown */
+      .demo-options {
+        display: none;
+        margin-top: 10px;
+      }
+      .demo-options a {
+        display: block;
+        margin: 5px 0;
+        padding: 10px;
+        background-color: #f0f0f0;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #000;
+      }
+      .demo-options a:hover {
+        background-color: #d0d0d0;
+      }
+    </style>
   </head>
 
   <body>
@@ -54,19 +74,38 @@
       <a class="link" href="https://wa.me/6285894493680" target="_blank">
         <i class="fab fa-whatsapp"></i> WhatsApp
       </a>
-      <a class="link" href="https://tiktok.com/@lanzstore20" target="_blank">
-        <i class="fab fa-tiktok"></i> Tiktok
+      <a class="link" href="https://instagram.com/lanzzz.20" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
       </a>
       <a class="link" href="https://portofolio-bagus-ten.vercel.app/" target="_blank">
         <i class="fas fa-globe"></i> Personal Website
       </a>
-      <a class="link" href="demo.html" target="_blank">
+      <a class="link" href="javascript:void(0);" onclick="showDemoOptions()">
         <i class="fas fa-globe"></i> Demo Web Saya
       </a>
+
+      <!-- Pilihan Demo muncul setelah diklik -->
+      <div class="demo-options" id="demoOptions">
+        <a href="game.html" target="_blank">Demo Game</a>
+        <a href="islami.html" target="_blank">Demo Islam</a>
+        <a href="lainnya.html" target="_blank">Demo Lainnya</a>
+      </div>
     </div>
 
     <div id="hashtag">
       #Bagus - Learn Coding
-    </div>
+    </div>,
+
+    <script>
+      // Fungsi untuk menampilkan pilihan demo
+      function showDemoOptions() {
+        var demoOptions = document.getElementById("demoOptions");
+        if (demoOptions.style.display === "none" || demoOptions.style.display === "") {
+          demoOptions.style.display = "block";
+        } else {
+          demoOptions.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
