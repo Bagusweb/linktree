@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo | Lainnya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    h1 {
+        color: #ffff;
+        margin-bottom: 20px;
+    }
+
+    .project-links {
+        width: 100%;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .project {
+        margin-bottom: 20px;
+    }
+
+    .project a {
+        display: block;
+        padding: 15px;
+        background-color: #6e8efb;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+    .project a:hover {
+        background-color: #4c6ef5;
+    }
+
+    .back-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #444;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        display: block;
+    }
+
+    .back-button:hover {
+        background-color: #333;
+    }
+
+    @media (max-width: 600px) {
+        .project a {
+            font-size: 14px;
+            padding: 12px;
+        }
+    }
+</style>
+<body>
+    <h1>Proyek Lainnya</h1>
+
+    <div class="project-links">
+        <div class="project">
+            <a href="https://bagusweb.github.io/calculator/" target="_blank">
+                <i class="fas fa-calculator"></i> Kalkulator
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://bagusweb.github.io/pass-generator/" target="_blank">
+                <i class="fas fa-key"></i> Password Generator
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://bagusweb.github.io/Fake-bot/" target="_blank">
+                <i class="fas fa-robot"></i> Fake Bot
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://bagusweb.github.io/QR-Code-Generator/" target="_blank">
+                <i class="fas fa-qrcode"></i> QR Code Generator
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://bagusweb.github.io/Image-Editor/" target="_blank">
+                <i class="fas fa-image"></i> Image Editor
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://bagusweb.github.io/Savelinks/" target="_blank">
+                <i class="fas fa-link"></i> Save links
+            </a>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i> Kembali ke Halaman Utama</a>
+</body>
+</html>

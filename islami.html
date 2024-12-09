@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo | Islam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    h1 {
+        color: #ffff;
+        margin-bottom: 20px;
+    }
+
+    .project-links {
+        width: 100%;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .project {
+        margin-bottom: 20px;
+    }
+
+    .project a {
+        display: block;
+        padding: 15px;
+        background-color: #6e8efb;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+    .project a:hover {
+        background-color: #4c6ef5;
+    }
+
+    .back-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #444;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        display: block;
+    }
+
+    .back-button:hover {
+        background-color: #333;
+    }
+
+    @media (max-width: 600px) {
+        .project a {
+            font-size: 14px;
+            padding: 12px;
+        }
+    }
+</style>
+<body>
+    <h1>Proyek Islami</h1>
+
+    <div class="project-links">
+        <div class="project">
+            <a href="https://quran-app-bagus.vercel.app/" target="_blank">
+                <i class="fas fa-star"></i> Quran App
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://myquran-bagus.vercel.app/" target="_blank">
+                <i class="fas fa-star"></i> Myquran
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://bagusweb.github.io/doa-doa" target="_blank">
+                <i class="fas fa-star"></i> Doa-doa
+            </a>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i> Kembali ke Halaman Utama</a>
+</body>
+</html>
